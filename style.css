@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: var(--foreground-color);
+  padding: 20px;
+  background-color: bisque;
+}
+
+.custom-img-size {
+  max-width: 35%; /* Adjust the value to make the image smaller */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Maintain aspect ratio */
+}
+
+.color {
+  color: sandybrown;
+}
+
+.background {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 20px;
+}
+.background1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+h1,
+h4 {
+  margin-top: 20px;
+}
